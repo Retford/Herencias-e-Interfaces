@@ -26,7 +26,8 @@ export class Cuenta {
   }
 
   retirarDeCuenta(valor) {
-    this._retirarDeCuenta(valor, 0);
+    // Método abstracto
+    throw new Error('Debe implementar el método retirarDeCuenta en su clase');
   }
 
   _retirarDeCuenta(valor, comision) {
